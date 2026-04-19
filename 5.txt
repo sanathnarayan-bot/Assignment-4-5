@@ -1,0 +1,16 @@
+fopen() – Used to open a file
+Syntax: FILE *fp = fopen("filename", "mode");
+
+fclose() – Used to close an opened file
+Syntax: fclose(fp);
+
+fprintf() – Used to write formatted data to a file
+Syntax: fprintf(fp, "format", variables);
+
+fscanf() – Used to read formatted data from a file
+Syntax: fscanf(fp, "format", &variables);
+
+fgetc() – Reads a single character from a file
+fputc() – Writes a single character to a file
+fgets() – Reads a string (line) from a file
+fputs() – Writes a string to a file
